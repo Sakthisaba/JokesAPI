@@ -1,0 +1,48 @@
+
+    #demo{
+
+        font-family: 'Poppins',sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+   
+   
+    button{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+       font-size: 25px;
+       border-radius: 7px;
+        font-family: 'Poppins',sans-serif;
+         background-color: rgb(255, 255, 255);
+          border: 2px solid white;
+         align-items: center;
+         color: rgb(0, 0, 0);
+        
+        background-color: #fcbf49;
+        color: azure;
+
+ 
+    }
+    button:hover{
+        background-color: rgb(255, 255, 255);
+          border: 1px solid white;
+        
+         color: rgb(0, 0, 0);
+    }
+    @media only screen and (max-width:600px) {
+        #demo{
+            font-size: 0.8rem;
+        }
+        
+    }
+
+
+
